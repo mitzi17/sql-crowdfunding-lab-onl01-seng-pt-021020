@@ -6,3 +6,14 @@ CREATE TABLE project (
   start_date TEXT
   end_date TEXT
 );
+
+CREATE TABLE user (
+  id INTEGER PRIMARY KEY,
+  name TEXT
+  age INTEGER
+);
+
+CREATE TALBE pledge (
+  user id INTEGER,
+  project id INTEGER
+);

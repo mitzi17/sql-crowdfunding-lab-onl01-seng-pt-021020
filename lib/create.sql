@@ -13,7 +13,7 @@ CREATE TABLE users (
   age INTEGER
 );
 
-CREATE TALBE pledges (
+CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
   amount REAL,
   user_id INTEGER,
